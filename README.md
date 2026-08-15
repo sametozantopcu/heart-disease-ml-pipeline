@@ -19,6 +19,10 @@ This pipeline compares 5 distinct classification models under 5-Fold Stratified 
 
 ---
 
+## 📊 Dataset
+
+[Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction) (Kaggle, fedesoriano) — 918 patient records, 11 clinical features.
+
 ## 📂 Repository Structure
 
 ```text
@@ -47,7 +51,7 @@ This pipeline compares 5 distinct classification models under 5-Fold Stratified 
 
 1. **Targeted Imputation:** Clinically impossible values (`0` in `Cholesterol` and `RestingBP`) were flagged as missing and imputed using class-conditional medians (`HeartDisease` partitions) to preserve physiological distinctions.
 2. **Feature Engineering:**
-   * Engineered `Age_Oldpeak_Interaction` to capture composite cardiovascular stress risk ($Age 	imes Oldpeak$).
+   * Engineered `Age_Oldpeak_Interaction` to capture composite cardiovascular stress risk (Age × Oldpeak).
    * Screened experimental features (e.g. `Cholesterol_Age_Ratio`) via target correlation thresholds.
 3. **Leak-Free Preprocessing:** Embedded continuous feature scaling (`StandardScaler`) in a `ColumnTransformer` inside `Pipeline`, ensuring fold isolation during Cross-Validation.
 4. **Hyperparameter Tuning:** Systematic exploration using `GridSearchCV` with 5-fold `StratifiedKFold`, targeting `f1` metric optimization across 5 classifiers.
