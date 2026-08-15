@@ -4,8 +4,9 @@
 [![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/)
-📝 **Full write-up:** *(Medium article coming soon)*
 
+📝 **Full write-up:** *(Medium article coming soon)*
+---
 A rigorous, end-to-end Machine Learning pipeline designed for early screening and clinical classification of cardiovascular disease using patient physiological data.
 
 ---
