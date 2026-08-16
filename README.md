@@ -5,7 +5,7 @@
 [![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)](https://plotly.com/)
 
-📝 **Full write-up:** *[https://medium.com/@sametozan.topcu/kalp-hastalıklarında-erken-teşhis-makine-öğrenmesi-ile-uçtan-uca-karar-destek-sistemi-29ece20e996a](https://medium.com/@sametozan.topcu/early-detection-of-heart-disease-an-end-to-end-machine-learning-decision-support-system-8dc643288966)*
+📝 **Full write-up:** *https://medium.com/@sametozan.topcu/early-detection-of-heart-disease-an-end-to-end-machine-learning-decision-support-system-8dc643288966*
 ---
 A rigorous, end-to-end Machine Learning pipeline designed for early screening and clinical classification of cardiovascular disease using patient physiological data.
 
